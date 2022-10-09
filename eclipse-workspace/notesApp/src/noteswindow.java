@@ -26,7 +26,7 @@ public class noteswindow {
 	private JFrame frame;
 	private JTextField titleField;
 	private JTextField subjectField;
-	//private JTextField bodyField;
+	
 	private JTextArea bodyField;
 	private JTable table;
 
