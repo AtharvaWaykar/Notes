@@ -228,7 +228,7 @@ public class noteswindow {
 					pst.setString(2, subject);
 					pst.setString(3, body);
 					pst.executeUpdate();
-					//JOptionPane.showMessageDialog(null, "Note Saved");
+					
 					table_load();
 					titleField.setText("");
 					subjectField.setText("");
